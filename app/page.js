@@ -56,8 +56,8 @@ export default function Home() {
     <>
       <Header />
 
-      <section className=" flex justify-center mt-5 mr-10 ">
-        <div className="  w-screen  lg:pr-28 lg:pl-28 ">
+      <section className=" flex justify-center mt-5  ">
+        <div className="  w-screen  lg:mr-24 lg:ml-24 ">
           <Swiper
             loop={true}
             autoplay={{
@@ -66,7 +66,7 @@ export default function Home() {
             }}
             navigation={true} pagination={{
               dynamicBullets: true,
-            }} modules={[Navigation, Pagination, Autoplay]} className="mySwiper ml-11"
+            }} modules={[Navigation, Pagination, Autoplay]} className="mySwiper ml-10 mr-10"
           >
             {adImages.map((item) => (
               <SwiperSlide className=''>
