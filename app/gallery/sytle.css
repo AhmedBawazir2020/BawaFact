@@ -1,0 +1,47 @@
+
+/* .container{
+   
+} */
+.divcontainer{
+    display: flex;
+    justify-content: center;
+}
+.galleyimg{
+    height: 450px;
+    width: 750px;
+
+}
+.divcont{
+    height:calc(8% - 1px);
+}
+
+.img{
+    width: 266px;
+    height: 266px;
+} 
+
+
+
+   @media (max-width: 1020px){ 
+  
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+   }
+
+   @media (max-width: 800px){ 
+  
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+   }
+
+   @media (max-width: 580px){ 
+  
+    .img{
+        width: 120px;
+        height: 97px;
+    }
+   }
