@@ -5,8 +5,8 @@ export default function Footer() {
 
 
     return (
-        <footer class=" site ">
-            <div class=" bg-gray-200 ">
+        <footer className=" site ">
+            <div className=" bg-gray-200 ">
                 <div className=" h-20">
                     
                     <div className="flex justify-center">
