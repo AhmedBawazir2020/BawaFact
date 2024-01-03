@@ -41,7 +41,7 @@ export default function Header() {
               <ul class="items-center lg:flex gap-4 mt-8 p-4 ml-0 justify-start font-bold">
                 <li>
                   <Link
-                    className={`hover:text-blue-400  + " ${currentRout == "/" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                    className={`hover:text-blue-400  + " ${currentRout == "/" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                       }`}
                     href={"/"}
                   >
@@ -50,35 +50,35 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link className={` hover:text-blue-400 " ${currentRout == "/products" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                  <Link className={` hover:text-blue-400 " ${currentRout == "/products" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/products"}>
                  
                     Products
                   </Link>
                 </li>
                 <li>
-                  <Link className={` hover:text-blue-400 " ${currentRout == "/about" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                  <Link className={` hover:text-blue-400 " ${currentRout == "/about" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/about"}>
                   
                     About Us
                   </Link>
                 </li>
                 <li className={``}>{/*`${hide ? "hidden" : "hidden"}`*/}
-                  <Link className={`hover:text-blue-400  " ${currentRout == "/gallery" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                  <Link className={`hover:text-blue-400  " ${currentRout == "/gallery" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/gallery"}>
                     {" "}
                     Gallery
                   </Link>
                 </li>
                 <li className={`${hide ? "hidden" : "hidden"}`}>
-                  <Link className={` hover:text-blue-400  " ${currentRout == "/cliaints" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                  <Link className={` hover:text-blue-400  " ${currentRout == "/cliaints" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/cliaints"}>
                     {" "}
                     Cliaints
                   </Link>
                 </li>
                 <li>
-                  <Link className={` hover:text-blue-400 " ${currentRout == "/contact" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                  <Link className={` hover:text-blue-400 " ${currentRout == "/contact" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/contact"}>
                     {" "}
                     Contact Us
@@ -112,7 +112,7 @@ export default function Header() {
               <ul class="  font-bold  justify-center">
                 <li className={`pb-3 text-xl  py-2 text-center ${currentRout == "/" ? "text-white bg-blue-400" : "text-black"}`}>
                   <Link
-                    class={`hover:text-blue-800 active:text-green-800${currentRout == "/" ? "text-white bg-blue-400   rounded-md items-center hover:text-black" : "text-black"
+                    className={`hover:text-blue-400 active:text-blue-200 ${currentRout == "/" ? "text-gray-100 bg-blue-400   rounded-md items-center hover:text-white" : "text-black"
                       }`}
                     href={"/"}
                   >
@@ -120,36 +120,36 @@ export default function Header() {
                     Home
                   </Link>
                 </li>
-                <li className= {`pb-3 text-xl text-black py-2  text-center border-gray-500 ${currentRout == "/products" ? "text-white bg-blue-400" : "text-black"}`}>
-                  <Link className={`hover:text-blue-500 active:text-blue-500" ${currentRout == "/products" ? "text-white bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                <li className= {`pb-3 text-xl text-black py-2  text-center  ${currentRout == "/products" ? "text-white bg-blue-400" : "text-black"}`}>
+                  <Link className={`hover:text-blue-400 active:text-blue-200 " ${currentRout == "/products" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/products"}>
                     {" "}
                     Products
                   </Link>
                 </li>
-                <li className={`pb-3 text-xl text-black py-2  text-center border-gray-500 ${currentRout == "/about" ? "text-white bg-blue-400" : "text-black"}`}>
-                  <Link className={`hover:text-blue-500 active:text-blue-500" ${currentRout == "/about" ? "text-white bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                <li className={`pb-3 text-xl text-black py-2  text-center  ${currentRout == "/about" ? "text-white bg-blue-400" : "text-black"}`}>
+                  <Link className={`hover:text-blue-400 active:text-blue-200 " ${currentRout == "/about" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/about"}>
                     {" "}
                     About Us
                   </Link>
                 </li>
-                <li className={` pb-3 text-xl text-black py-2  text-center border-gray-500 ${currentRout == "/gallery" ? "text-white bg-blue-400" : "text-black"}`}> {/*${hide ? "hidden" : "hidden"}  */}
-                  <Link className={`hover:text-blue-500 active:text-blue-500" ${currentRout == "/gallery" ? "text-white bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                <li className={` pb-3 text-xl text-black py-2  text-center  ${currentRout == "/gallery" ? "text-white bg-blue-400" : "text-black"}`}> {/*${hide ? "hidden" : "hidden"}  */}
+                  <Link className={`hover:text-blue-400 active:text-blue-200 " ${currentRout == "/gallery" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/gallery"}>
                     {" "}
                     Gallery
                   </Link>
                 </li>
-                <li className={` ${hide ? "hidden" : "hidden"} pb-3 text-xl text-black py-2  text-center border-gray-500 ${currentRout == "/cliaints" ? "text-white bg-blue-400" : "text-black"}`} >
-                  <Link className={`hover:text-blue-500 active:text-blue-500" ${currentRout == "/cliaints" ? "text-white bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                <li className={` ${hide ? "hidden" : "hidden"} pb-3 text-xl text-black py-2  text-center  ${currentRout == "/cliaints" ? "text-white bg-blue-400" : "text-black"}`} >
+                  <Link className={`hover:text-blue-400 active:text-blue-200 " ${currentRout == "/cliaints" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/cliaints"}>
                     {" "}
                     Cliaints
                   </Link>
                 </li>
-                <li className={`pb-3 text-xl text-black py-2  text-center border-gray-500 ${currentRout == "/contact" ? "text-white bg-blue-400" : "text-black"}`}>
-                  <Link className={`hover:text-blue-500 active:text-blue-500" ${currentRout == "/contact" ? "text-white bg-blue-400 p-1 rounded-md items-center hover:text-black" : "text-black"
+                <li className={`pb-3 text-xl text-black py-2  text-center  ${currentRout == "/contact" ? "text-white bg-blue-400" : "text-black"}`}>
+                  <Link className={`hover:text-blue-400 active:text-blue-200 " ${currentRout == "/contact" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center  hover:text-white" : "text-black"
                     }`} href={"/contact"}>
                     {" "}
                     Contact Us

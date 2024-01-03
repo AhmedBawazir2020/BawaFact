@@ -1,5 +1,6 @@
 import Header from '../componats/Header'
 import { images } from '../../lib/images'
+import Footer from '../componats/Footer';
 
 
 // const Cards = () => {

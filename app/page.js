@@ -142,7 +142,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="">
+      <div >
         <Footer />
       </div>
     </>
