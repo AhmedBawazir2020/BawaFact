@@ -7,11 +7,11 @@ import Footer from "../componats/Footer";
 const Cards = ({ imageUrl }) => {
   return (
     <div className=" lg:w-70 w-46 md:w-72 m-5 lg:m-2 md:m-2 ">
-      <div name="card" className="p-4 bg-gray-100 rounded-3xl shadow-md hover:shadow-2xl lg:w-70 lg:h-95 md:w-72 md:h-75 w-52 h-64 ">
+      <div name="card" className="p-4 bg-gray-100 rounded-3xl shadow-md hover:shadow-2xl lg:w-70 lg:h-95 md:w-72 md:h-75 w-48 h-60 ">
         <div name="card imgae" className="overflow-visible py-2  ">
           <img
             alt="Card background"
-            className="object-contain rounded-xl lg:h-56 md:h-40 h-32"
+            className="object-contain rounded-xl lg:h-56 md:h-40 h-28"
             src={imageUrl}
             width={370}
 

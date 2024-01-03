@@ -108,10 +108,10 @@ export default function Home() {
         </div>
         <div className=" ">
           <Link className='flex justify-end mr-5  ' href={'/products'}><h4 className='text-blue-400 underline hover:text-blue-500'>see more —›</h4></Link>
-          <div class="flex flex-col bg-white m-auto lg:ml-10 lg:mr-10 p-auto shadow-inner rounded-xl">
+          <div class="flex flex-col bg-blue-50 m-0 lg:ml-10 lg:mr-10 p-0 shadow-inner rounded-xl">
             <div class="flex overflow-x-scroll p-3 hide-scroll-bar  ">
               <div class="flex flex-nowrap  ">
-                <div class="flex px-0 ml-5">
+                <div class="flex ">
                   {image.slice(0, 5).map((item) => (
                     <Cards imageUrl={item} />
                   ))}
@@ -128,10 +128,10 @@ export default function Home() {
         </div>
         <div className=" ">
           <div className=" ">
-            <div class="flex flex-col bg-white m-auto lg:ml-10 lg:mr-10 p-auto shadow-inner rounded-xl">
+            <div class="flex flex-col bg-blue-50 m-auto lg:ml-10 lg:mr-10 p-auto shadow-inner rounded-xl">
               <div class="flex overflow-x-scroll p-3 hide-scroll-bar  ">
                 <div class="flex flex-nowrap  ">
-                  <div class="flex px-0 ml-5">
+                  <div class="flex ">
                     {cliaints.slice(0, 1).map((item) => (
                       <Cards imageUrl={item} />
                     ))}
