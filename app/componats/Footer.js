@@ -9,7 +9,7 @@ export default function Footer() {
             <div class=" bg-gray-200 ">
                 <div className=" h-20">
                     
-                    <div className=" flex justify-center  ">
+                    <div className="flex justify-center">
                        <h6 className="mt-10 font-thin  text-black opacity-60">Perfectly developed by | @AhmedBawazir
                        </h6>
                     </div>
