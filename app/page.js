@@ -61,7 +61,7 @@ export default function Home() {
           <Swiper
             loop={true}
             autoplay={{
-              delay: 5000,
+              delay: 4500,
               disableOnInteraction: false,
             }}
             navigation={true} pagination={{

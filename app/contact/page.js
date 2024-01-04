@@ -28,9 +28,9 @@ export default function Contact() {
                     <div className='m-5 mr-11 '>
                         <Map />
                     </div>
-                    <div className="  mr-28 ml-2 m-5">
+                    <div className="  lg:mr-28 lg:ml-2 mt-5 mb-5 flex justify-center">
                         {/* <h1>Contact page</h1> */}
-                        <div className='flex justify-center bg-gray-50 ml-11 w-56  '>
+                        <div className='flex justify-center bg-gray-50-500 lg:ml-11 w-56  '>
                             <form className="container  m-auto">
                                 <div className="email block m-3 items-center ">
                                     <label htmlFor="frm-email" className='mr-14 '>Email</label>
@@ -80,7 +80,7 @@ export default function Contact() {
                                 </div>
                                 <div className="message block m-3">
                                     <h2 htmlFor="frm-message">Message</h2>
-                                    <textarea id="frm-message" rows="4" cols={18} name="message" className='mr-44 border-2 border-gray-400 rounded-lg hover:border-gray-700'></textarea>
+                                    <textarea id="frm-message" rows="4" cols={20} name="message" className=' border-2 border-gray-400 rounded-lg hover:border-gray-700'></textarea>
                                 </div>
                                 <div className="items-center flex justify-center bg-blue-700  hover:text-blue-600  hover:bg-gray-600 hover:shadow-black w-20 h-9 m-5 rounded-md">
                                     <button className='flex justify-center font-bold text-white ' type="submit">Submit</button>
