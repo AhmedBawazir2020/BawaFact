@@ -22,6 +22,7 @@
   padding: 35px;
   border-radius: 50%;
   opacity: 0.3;
+  display: none;
 }
 
 @media (max-width: 800px){ 
@@ -69,6 +70,7 @@ body {
     )
     rgb(var(--background-start-rgb)); */
     /* position: fixed; */
+ 
 
 }
 
