@@ -45,14 +45,13 @@ export default function Header() {
                       }`}
                     href={"/"}
                   >
-                
                     Home
                   </Link>
                 </li>
                 <li>
                   <Link className={` hover:text-blue-400 " ${currentRout == "/products" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
                     }`} href={"/products"}>
-                 
+          
                     Products
                   </Link>
                 </li>
@@ -82,6 +81,13 @@ export default function Header() {
                     }`} href={"/contact"}>
                     {" "}
                     Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link className={` hover:text-blue-400 " ${currentRout == "/contact" ?  "text-gray-100 bg-blue-400 p-1 rounded-md items-center hover:text-white" : "text-black"
+                    }`} href={"/studio"}>
+                    {" "}
+                    Studio
                   </Link>
                 </li>
               </ul>
@@ -153,6 +159,13 @@ export default function Header() {
                     }`} href={"/contact"}>
                     {" "}
                     Contact Us
+                  </Link>
+                </li>
+                <li className={`pb-3 text-xl text-black py-2  text-center  ${currentRout == "/contact" ? "text-white bg-blue-400" : "text-black"}`}>
+                  <Link className={`hover:text-blue-400 active:text-blue-200 " ${currentRout == "/contact" ? "text-gray-100 bg-blue-400 p-1 rounded-md items-center  hover:text-white" : "text-black"
+                    }`} href={"/studio"}>
+                    {" "}
+                    Studio
                   </Link>
                 </li>
               </ul>
